@@ -10,7 +10,7 @@
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-	/*creating a node, dont forget the typedef*/
+	//creating a node, dont forget the typedef
 	binary_tree_t * new_node;
 	// allocate memory to the new node created
 	new_node = (binary_tree_t *) malloc(sizeof(binary_tree_t));
